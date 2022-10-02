@@ -13,10 +13,19 @@
        <h1 id="title">Hello</h1>
        <p id="description">this is a paragraph</p>
        <form id="survey-form">
-          <input type="text" id="name" required>
-             <input type="email" id="email" required>
-      <input type="number" id="number" >
-
+        <div class="form-section">
+         <label id="name-label" for="name">Name</label>
+  <input type="text" id="name" placeholder="Enter your name" required>
+</div>
+<div class="form-section">
+   <label id="email-label" for="name">Email</label>
+     <input type="email" id="email" placeholder="Enter your Email" required>
+     </div>
+  <div class="form-section">
+    <label id="number-label" for="name">Number</label>
+      <input type="number" id="number" placeholder="Enter your age">
+</div>
          </form>
+         
       </body>
 </html>
